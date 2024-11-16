@@ -103,13 +103,13 @@ body {
 /* Link Table Formatting */
 
 .recipe_links {
-    display: flex;
+    display: flex;url(recipe_sites/chickpea_curry_site.html)
     justify-content: space-evenly;
     gap: 20px;
     opacity: 0;
 }
 
-.img_enter_screen {
+.recipe_links.img_enter_screen {
     animation: recipeLinksFadeIn 1s ease-in forwards;
 }
 
