@@ -68,3 +68,34 @@ body {
     0%, 100% { background-position: 0% 0%; }
     50% { background-position: 100% 100%; }
   }
+
+/* Intro Context Animations */
+.post_button {
+    color: transparent;
+    margin: 0px;
+    height: auto;
+    width: auto;
+}
+
+#main_heading.enter_screen {
+    animation: fadeIn 1s ease-in forwards;
+}
+
+#text_intro.enter_screen {
+    animation: fadeIn 1s ease-in forwards;
+}
+
+#welcome_message.enter_screen {
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        color: transparent;
+    }
+    100% {
+        color: black;
+        transform-origin: top;
+        transform: translateY(10px)
+    }
+}
