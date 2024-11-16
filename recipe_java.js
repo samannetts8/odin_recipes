@@ -10,6 +10,6 @@ enter_button.addEventListener("click", () => {
     enter_button.classList.add("animate_enter_button");
     setTimeout(() => {enter_button.classList.remove("animate_enter_button");
         showIntroPage();
-    },400);
-
+    },500);
 });
+
