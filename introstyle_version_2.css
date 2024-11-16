@@ -14,9 +14,9 @@ body {
     left: 0;    
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom right, #ffffff, rgb(193, 246, 140),rgb(130, 192, 67),rgb(75, 146, 4));
+    background: linear-gradient(to bottom right, #ffffff, #eaf2e0, #d5e5c1, #b0cc91, #8ab36a, #5d8d2f, #356900);
     background-size: 150% 150%;
-    animation: pulsingBackground 10s ease infinite;
+    animation: pulsingBackground 15s ease-in-out infinite;
 }
 
 /* Enter Button Section */
@@ -65,13 +65,15 @@ body {
 }
 
 @keyframes pulsingBackground {
-    0%,100% {
-        background-position: 0% 0%
-    }
-    25%, 75% {
-        background-position: 50% 50%
-    }
-    50% {
-        background-position: 75% 75%;
-    }
-}
+    0%, 100% { background-position: 0% 0%; }
+    5%, 95% { background-position: 10% 10%; }
+    10%, 90% { background-position: 20% 20%; }
+    15%, 85% { background-position: 30% 30%; }
+    20%, 80% { background-position: 40% 40%; }
+    25%, 75% { background-position: 50% 50%; }
+    30%, 70% { background-position: 60% 60%; }
+    35%, 65% { background-position: 70% 70%; }
+    40%, 60% { background-position: 80% 80%; }
+    45%, 55% { background-position: 90% 90%; }
+    50% { background-position: 100% 100%; }
+  }
