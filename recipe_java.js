@@ -8,6 +8,7 @@ const enter_button = document.getElementById("enter_button");
 const main_heading = document.getElementById("main_heading");
 const text_intro = document.getElementById("text_intro");
 const welcome_message = document.getElementById("welcome_message");
+const recipe_links = document.getElementsByClassName("recipe_links")
 
 
 enter_button.addEventListener("click", () => {
@@ -18,5 +19,5 @@ enter_button.addEventListener("click", () => {
     setTimeout(() => {main_heading.classList.add("enter_screen");},1000);    
     setTimeout(() => {text_intro.classList.add("enter_screen");},1500);        
     setTimeout(() => {welcome_message.classList.add("enter_screen");},2000);        
-
+    setTimeout(() => {recipe_links.classList.add("enter_screen");},2500);
 });

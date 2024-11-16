@@ -103,15 +103,8 @@ body {
 
 /* Link Table Formatting */
 
-ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+.recipe_links {
+    display: flex;
+    justify-content: space-evenly;
     gap: 20px;
-    height: 100px;
-    list-style-type: none;
-    text-align: center;
-}
-
-ul.enter_screen {
-    animation: fadeIn 1s ease-in forwards;
 }
