@@ -100,11 +100,24 @@ body {
     }
 }
 
-
 /* Link Table Formatting */
 
 .recipe_links {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
+    opacity: 0;
+}
+
+.img_enter_screen {
+    animation: recipeLinksFadeIn 1s ease-in forwards;
+}
+
+@keyframes recipeLinksFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
 }
