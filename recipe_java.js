@@ -19,5 +19,5 @@ enter_button.addEventListener("click", () => {
     setTimeout(() => {text_intro.classList.add("enter_screen");},1500);        
     setTimeout(() => {welcome_message.classList.add("enter_screen");},2000);        
     console.log(recipe_link_elements);
-    setTimeout(() => {recipe_link_elements.forEach(element => {element.classList.add("img_enter_screen")});},2500);
+    setTimeout(() => {recipe_link_elements.forEach(element => {element.classList.add("img_enter_screen")});},2800);
     });
